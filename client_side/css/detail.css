@@ -11,7 +11,7 @@ body {
 }
 
 .container {
-    width: 600px;
+    width: 700px;
     background-color: #ffffff;
     padding: 30px;
     border-radius: 10px;
@@ -77,6 +77,15 @@ button {
 
 button:hover {
     background-color: #0056b3;
+}
+.inscard{
+    display: flex;
+    /* background-color: #007bff; */
+    width: 400px;
+    justify-content: space-between;
+}
+.instxt{
+    font-weight: bold;
 }
 
 /* Button container styling */

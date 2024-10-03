@@ -1,25 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="../css/addEmp.css">
 </head>
+
 <body>
     <div class="main">
         <div>Add Employee</div>
-        <div><img src="../../image/person.png" alt=""></div>
-        <div class="editfield">
-            <input type="text" placeholder="Employee ID">
-            <input type="text" placeholder="Name">
-            <input type="text" placeholder="Designation">
-            <input type="text" placeholder="Salary">
-            <input type="text" placeholder="Experience">
-            <input type="text" placeholder="Email">
-            <input type="text" placeholder="Phone">
-            <button>Save</button>
-        </div>
+        <form method="POST" action="/submit">
+
+            <div><img src="../../image/person.png" alt=""></div>
+            <div class="editfield">
+                <input type="text" placeholder="Employee ID" id="empID" name="empID">
+                <input type="text" placeholder="Name" id="Name" name="Name">
+                <input type="text" placeholder="Designation" id="designation" name="designation">
+                <input type="text" placeholder="Salary" id="salary" name="salary">
+                <input type="text" placeholder="Experience" id="experience" name="experience">
+                <input type="text" placeholder="Email" id="email" name="email">
+                <input type="text" placeholder="Phone" id="phone" name="phone">
+                <a href="./index.html"><button>Save</button></a>
+            </div>
+        </form>
     </div>
 </body>
+
 </html>
